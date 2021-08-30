@@ -1,0 +1,67 @@
+body {
+    font: 500;
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: silver;
+    padding: 20px 15px 20px 90px;
+    font-size: 45px;
+    font-weight: bolder;
+    border-bottom: cornflowerblue 2px solid;
+    color: rgb(185, 17, 17);
+}
+
+.menu {
+    height: 45px;
+    background-color: peru;
+    overflow-y: hidden;
+    padding-bottom: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 21px;
+    padding: 20px 40px;
+    color: cornsilk;
+}
+
+.menu a:hover {
+    color: darkred;
+    background-color: floralwhite;
+}
+
+.drop {
+    display: none;
+    background-color: rgb(138, 138, 138);
+    padding: 10px;
+    position: absolute;
+    padding: 5px 0;
+    bottom: 250px;
+    left: 219px;
+}
+
+.danhsach li:hover .drop {
+    display: block;
+    position: absolute;
+    bottom: 257px;
+}
+
+.drop li a {
+    color: white;
+    display: block;
+    font-size: 18px;
+    width: 100px;
+    border-bottom: lightgoldenrodyellow 1px solid;
+}
+
+.drop li a:last-child {
+    border: none;
+}
