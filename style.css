@@ -65,3 +65,6 @@ body {
 .drop li a:last-child {
     border: none;
 }
+#clock {
+    bottom :0;
+}
